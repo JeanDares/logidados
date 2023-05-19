@@ -2,11 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
 
 .secatio-1 h2 {
-    font-size: 50px;
+    font-size: 50px;    
     
 }
 
 .secatio-1 p {
-    font-size: 20px;
-   
+    font-size: 20px;   
 }
+
+.btn-secao {
+    background-color: #494949;
+    padding: 5px 30px;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px #00000029;   
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-secao:hover {
+    background-color: #0f0f0f; 
+    transition: 0.6s;
+    opacity: 0.2;
+    color: white;
+}
+
+.clientes{
+    box-shadow: 0 3px 6px #00000077; 
+    border-radius: 40px; 
+    padding: 50px;
+    
+}
+
+
