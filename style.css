@@ -1,14 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
 
-.secatio-1 h2 {
-    font-size: 50px;    
-    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+.secatio-1 h1 {
+    text-align: left;
+    color: #21247e;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;      
 }
 
-.secatio-1 p {
-    font-size: 20px;   
+.paragrafo-header {
+    font-size:  20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif; 
+    text-align: left;
+    color: #34993e;
 }
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif; 
+    text-align: left;
+}
+
+
 
 .btn-secao {
     background-color: #494949;
@@ -27,10 +43,30 @@
     color: white;
 }
 
+.paragrafo-servicos{
+    font-size:  15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif; 
+    text-align: left;
+    color: #1c4319;
+    font-size: 15px; 
+    text-align: left;
+}
+
 .clientes{
     box-shadow: 0 3px 6px #00000077; 
     border-radius: 40px; 
     padding: 50px;
+    
+}
+
+@media screen and (max-width: 992px){
+    .servicos{
+        margin-top: 10px;
+    }
+    .servicos img{
+        display: none;
+    }
     
 }
 
