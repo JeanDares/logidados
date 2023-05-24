@@ -71,7 +71,7 @@
     margin-top: 20px ;
 }
 .cards{
-    width: 70%;
+    width: 90%;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;

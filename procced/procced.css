@@ -94,10 +94,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .cards{
-    width: 70%;
+    width: 90%;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    background-color: red;
 }
 
 
