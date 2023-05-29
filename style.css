@@ -1,12 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
 
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Poppins', sans-serif;      
+
+}
+
 .secatio-1 h1 {
     text-align: left;
-    color: #21247e;
+    color: black;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;      
+}
+
+.destacar_texto{
+    
+    color: #21247e;
+    font-weight: 800;
 }
 
 .paragrafo-header {
@@ -67,7 +78,14 @@ h3{
     .servicos img{
         display: none;
     }
+
+   
     
 }
+
+.rodape{
+    margin-bottom: 100px;
+    padding: 30px;
+ }
 
 
