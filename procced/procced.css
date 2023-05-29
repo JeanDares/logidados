@@ -69,6 +69,32 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.funcionalidades{
+    text-align: center; 
+    margin-top: 100px;
+     text-decoration: underline;
+      font-family: 'Poppins', sans-serif;
+       font-weight: 800; 
+       color: #849349;
+        font-size: 40px; 
+}
+
+.dowload{
+    background-color: #808185;
+    padding: 5px 30px;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px #00000029;   
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.dowload:hover {
+    background-color: #0f0f0f; 
+    transition: 0.6s;
+    opacity: 0.2;
+    color: white;
+}
+
 
 
 .card{
