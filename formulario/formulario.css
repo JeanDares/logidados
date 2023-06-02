@@ -19,7 +19,7 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
-    color: #fff;
+    color: #808185;
     letter-spacing: 6px;
   }
   
@@ -37,15 +37,14 @@ body {
   .form-horizontal {
     /*float: left;*/
     max-width: 400px;
-    font-family: 'Lato';
+    font-family: 'Poppins', sans-serif; 
     font-weight: 400;
   }
   
   .form-control, 
   textarea {
     max-width: 400px;
-    background-color: #000;
-    color: #fff;
+    background-color: white;
     letter-spacing: 1px;
   }
   
@@ -53,20 +52,17 @@ body {
     margin-top: 15px;
     height: 34px;
     width: 400px;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
   }
   
   .alt-send-button {
     width: 400px;
     height: 34px;
-    transition: all .2s ease-in-out;
   }
   
   .send-text {
     display: block;
     margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;    
     letter-spacing: 2px;
   }
   
@@ -143,7 +139,7 @@ body {
     margin: 10px 3px;
     line-height: 60px;
     border-radius: 50%;
-    color: #fff;
+    color: #cccf12;
     background-color: rgb(27,27,27);
     cursor: pointer; 
     transition: all .2s ease-in-out;
@@ -256,3 +252,9 @@ body {
       width: 99%;
     }
   }
+
+  .links {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
