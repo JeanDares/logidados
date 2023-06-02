@@ -25,8 +25,7 @@
           <img
             src="../img/logosc.jpeg"
             alt="Logo Logidados"
-            width="150"
-            height="auto"
+            width="180" height="50px"
           />
         </a>
         <button
@@ -80,22 +79,78 @@
       </div>
     </nav>
 
-<div style=" border: solid black; padding: 30px;  width: 70%; margin: auto; margin-top: 200px; max-width: 500px;">
-    <form style="  display: flex; flex-direction: column; ">
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label class="sr-only" for="inlineFormInputName2">Nome</label>
-                 <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Digite seu nome">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email">
-            </div> 
-        </div>       
+    <section id="contact">
+  
+      <h2 class="section-header">Entre em Contato</h2>
       
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
- </div>
+      <div class="contact-wrapper">
+      
+      <!-- Left contact page --> 
+        
+        <form id="contact-form" class="form-horizontal" role="form">
+           
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+    
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+          
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+          
+          </button>
+          
+        </form>
+        
+      <!-- Left contact page --> 
+        
+          <div class="direct-contact-container">
+    
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+              
+              <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+              
+              <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+              
+            </ul>
+    
+            <hr>
+            <ul class="social-media-list">
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>       
+            </ul>
+            <hr>
+    
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+    
+          </div>
+        
+      </div>
+      
+    </section>  
+      
+      
 
 
     

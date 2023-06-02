@@ -39,8 +39,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
 }
 
-.texto-1 img{
-    width: 80%;
+.imgProcced{
+    width: 50%;
+}
+
+.fotoDividida{
+    display: none;
 }
 
 
@@ -63,8 +67,16 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
     
-    .texto-1 img{
-        width: 200px;
+    .imgProcced{
+       display: none;
+    }
+
+    .fotoDividida{
+        display: block;       
+    }
+    .fotoDividida img{
+        width: 350px;
+        height: auto;
     }
 
     .duvida-botao{
