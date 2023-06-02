@@ -127,10 +127,7 @@ body {
     padding: 0;
   }
   
-  .social-media-list li a {
-    color: #143877;
-  }
-  
+
   .social-media-list li {
     position: relative; 
     display: inline-block;
@@ -139,8 +136,7 @@ body {
     margin: 10px 3px;
     line-height: 60px;
     border-radius: 50%;
-    color: #cccf12;
-    background-color: rgb(27,27,27);
+    background-color: rgb(255, 255, 255);
     cursor: pointer; 
     transition: all .2s ease-in-out;
   }

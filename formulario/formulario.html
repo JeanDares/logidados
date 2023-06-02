@@ -81,7 +81,11 @@
       </div>
     </nav>
 
+   
+
     <section id="contact">
+
+      
   
       <h2 class="section-header">Entre em Contato</h2>
       
@@ -89,37 +93,34 @@
       
       <!-- Left contact page --> 
         
-        <form id="contact-form" class="form-horizontal" role="form">
-           
-          <div class="form-group">
+      <form id="contact-form" class="form-horizontal" role="form" method="POST" action="enviar_email.php">
+        <div class="form-group">
             <div class="col-sm-12">
-              <input type="text" class="form-control" id="name" placeholder="Seu nome" name="name" value="" required>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome" name="nome" value="" required>
             </div>
-          </div>
+        </div>
     
-          <div class="form-group">
+        <div class="form-group">
             <div class="col-sm-12">
-              <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
+                <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
             </div>
-          </div>
+        </div>
     
-          <textarea class="form-control" rows="10" placeholder="Sua mensagem" name="message" required></textarea>
-          
-          <button class="btn btn-outline-success send-button" id="submit" type="submit" value="">
-         Enviar
-            
-          
-          </button>
-          
-        </form>
+        <textarea class="form-control" rows="10" placeholder="Sua mensagem" name="mensagem" required></textarea>
+    
+        <button class="btn btn-outline-success send-button" id="submit" type="submit" value="">
+            Enviar
+        </button>
+    </form>
+    
         
       <!-- Left contact page --> 
         
-          <div class="direct-contact-container">
+          <div class="direct-contact-container mx-5">
     
             <ul class="contact-list">
               <a class="links" href="https://goo.gl/maps/BPkPryv1YjS6HwFW6 " target="_blank">
-                <p> <i class="bi bi-geo-alt-fill"></i> Rua Orestes Baldisserotto 1255</p>
+                <p> <i class="bi bi-geo-alt-fill"></i> Rua Orestes Baldisserotto 1255 - Caxias do Sul-RS</p>
               </a>
               
               <a class="links" href="mailto:comercial@logidados.com.br?cc=&bcc=&subject=Assunto&body=Texto do email">
@@ -152,8 +153,11 @@
           </div>
         
       </div>
+
+      
       
     </section>  
+ 
       
       
 
