@@ -72,7 +72,7 @@ h3{
 }
 
 .imagemHome {
-    width: 300px; height: auto;
+    width: 300px; height: auto; 
 }
 
 .divisao{
@@ -114,9 +114,7 @@ h3{
 
 @media screen and (max-width: 992px){ 
 
-    .svgCapa{
-        width: 30px;
-    }
+   
 
     .secatio-1 h1 {
         text-align: center;
