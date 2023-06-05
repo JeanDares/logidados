@@ -114,6 +114,10 @@ h3{
 
 @media screen and (max-width: 992px){ 
 
+    .svgCapa{
+        width: 30px;
+    }
+
     .secatio-1 h1 {
         text-align: center;
         color: black;
