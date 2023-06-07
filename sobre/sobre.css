@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .texto-1 p{
     font-size:  20px;
-    text-align: center;
+    text-align:justify;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     width: 70%;
