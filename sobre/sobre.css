@@ -6,13 +6,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    
     margin-top: 150px;
-    padding: 50px;
-    flex-direction: row; 
 }
 
 .texto-1{
