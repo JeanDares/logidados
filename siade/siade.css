@@ -59,7 +59,7 @@
 
 .card{
     width: 300px;
-    height: 650px;
+    height: 700px;
     padding: 30px;
     text-align: center;
     border-radius: 50px;
@@ -150,3 +150,15 @@
     color: black;
     cursor: pointer;
 }
+
+.material-symbols-outlined {
+
+    font-size: 50px; 
+    
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 300,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    
