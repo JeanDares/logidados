@@ -119,8 +119,10 @@
 
 
 .card_duvida h4{
-    color: #808185; 
+    color: #21247e; 
     margin: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .duvida-botao{
@@ -131,7 +133,7 @@
 }
 
 .btn-duvida{
-    background-color: #849349;
+    background-color: #21247e;
     padding: 5px 30px;
     border-radius: 40px;
     box-shadow: 0 3px 6px #00000029;   
@@ -140,9 +142,9 @@
     font-size: 15px;
 }
 .btn-duvida:hover {
-    background-color: #c2c8a0; 
+    background-color: #4c2bcd; 
     transition: 0.6s;
-    color: black;
+    color: white;
 }
 
 .links {
